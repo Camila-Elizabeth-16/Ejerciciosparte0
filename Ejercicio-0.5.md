@@ -18,7 +18,7 @@ browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
 activate server
 server-->>browser: data.json
 deactivate server
-browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/data.json
+browser->>server: GET	https://studies.cs.helsinki.fi/favicon.ico
 activate server
 server-->>browser: HTTP404NotFound favicon.ico
 deactivate server
